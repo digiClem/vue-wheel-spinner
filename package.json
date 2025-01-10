@@ -33,5 +33,7 @@
   ],
   "devDependencies": {
     "vite": "^5.2.8"
-  }
+  },
+  "build": "npm run generate-html && vite build",
+ "generate-html": "mkdir -p dist && cp index.html dist/"
 }
