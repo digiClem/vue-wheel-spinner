@@ -208,7 +208,7 @@ function drawWheel() {
 
 function spinWheel(winnerIndex) {
 
-  // If already spinning do nothing
+  // If already spinning do nothing 
   if (isSpinning.value) {
     return false;
   }
